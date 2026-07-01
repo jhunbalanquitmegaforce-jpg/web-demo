@@ -1,0 +1,57 @@
+body{
+    font-family: Arial;
+    background: #f4f4f4;
+    margin: 0;
+}
+header{
+    background: #007bff;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.card{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 8px gray;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+}
+button{
+    padding: 8px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.add{
+    background: green;
+    color: white;
+}
+.remove{
+    background: red;
+    color: white;
+}
+.qty{
+    background: orange;
+    color: white;
+}
+table{
+    width: 95%;
+    margin: auto;
+    border-collapse: collapse;
+}
+table th, table td{
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}

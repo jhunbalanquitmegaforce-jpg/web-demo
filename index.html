@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">    
+    <head >
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Office</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    </head>
+    <body id="home" >
+        <div class="banner">
+            <div class="navbar">
+                <img src="images/logo.jpg" id="logo" class="logo" alt="Logo">
+                <ul id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="assessment.html">Assessment</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+
+        <div class="content">
+            <h1>MegaForce</h1>
+            <p>Delivering optimal,<br> risk-free environments to help organizations successfully achieve their business objectives</p>
+                <div>
+                    <button onclick="showform()" ><span></span>Login</button>
+                    <div id="myform" class="form-container">
+                        <p  class="close-btn" onclick="closeForm()">&times;</p>
+                        <br>
+                        <h2>MegaForce Login</h2><br>
+                        <input type="text" id="username" placeholder="Username" required><br>
+                        <input type="password" id="password" placeholder="Password" required><br>
+                    <button id="login-btn" onclick="login()">Enter</button>
+                    <p id="message"></p>
+                    </div>
+                    <button onclick="location.href='#contact'"><span></span> Contact Us</button>
+                </div>
+        </div>
+       </div>
+       <div class="back-color">
+        <div  id="about" class="carousel">
+            <div  class="group">
+                <div class="card"><img src="images/image1.jpg" alt="Image 1"></div>
+                <div class="card"><img src="images/image2.jpg" alt="Image 2"></div>
+                <div class="card"><img src="images/image3.jpg" alt="Image 3"></div>
+                <div class="card"><img src="images/image4.jpg" alt="Image 4"></div>
+                <div class="card"><img src="images/image5.jpg" alt="Image 5"></div>
+                <div class="card"><img src="images/image6.jpg" alt="Image 6"></div>
+            </div>
+             <div aria-hidden="true" class="group">
+                <div class="card"><img src="images/image1.jpg" alt="Image 1"></div>
+                <div class="card"><img src="images/image2.jpg" alt="Image 2"></div>
+                <div class="card"><img src="images/image3.jpg" alt="Image 3"></div>
+                <div class="card"><img src="images/image4.jpg" alt="Image 4"></div>
+                <div class="card"><img src="images/image5.jpg" alt="Image 5"></div>
+                <div class="card"><img src="images/image6.jpg" alt="Image 6"></div>
+            </div>
+        </div>
+        <h2 style="text-align:center; color:white;">MEGAFORCE</h2>
+        <p style="text-align:center; color:white;">We are a leading provider of comprehensive solutions for organizations seeking to optimize their operations and achieve their business objectives. Our team of experts specializes in delivering risk-free environments that enable our clients to thrive in today's competitive landscape.</p>
+        </div>
+      
+       <div class="data" id="about">
+        <div class="data-content">
+
+            <div class="data-item large">
+                <h2>100+</h2>
+                <p>Projects Completed</p>
+            </div>
+
+            <div class="data-item medium">
+                <h2>50+</h2>
+                <p>Happy Clients</p>
+            </div>
+
+            <div class="data-item small">
+                <h2>10+</h2>
+                <p>Awards Won</p>
+            </div>
+
+            <div class="data-item smaller">
+                <h2>33+</h2>
+                <p>Years of Experience</p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="list-item" onclick="toggleActive(this)">
+            <div class="badge badge-1">1</div>
+            <div class="item-content">
+                <h3>Training</h3>
+                <p>Completed</p>
+            </div>
+        </div>  
+         <div class="list-item" onclick="toggleActive(this)">
+            <div class="badge badge-2">2</div>
+            <div class="item-content">
+                <h3>Shooting Range</h3>
+                <p>Specialized</p>
+            </div>
+        </div>
+        <div class="list-item" onclick="toggleActive(this)">
+            <div class="badge badge-3">3</div>
+            <div class="item-content">
+                <h3>K9-unit</h3>
+                <p>Specialized</p>
+            </div>
+        </div>
+        <div class="list-item" onclick="toggleActive(this)">
+            <div class="badge badge-4">4</div>
+            <div class="item-content">
+                <h3>License</h3>
+                <p>Professional</p>
+            </div>
+        </div>
+    </div>
+    <div class="score-section">
+        <div class="score-card">
+            <div class="score-counter">
+    <strong>Points:</strong><p id="points-display">0</p></div>
+            <h2>Ilang Points ka?</h2>
+            
+            <ul class="score-tiers">
+                <li><strong>0-1</strong>=Baguhan pa lang.</li>
+                <li><strong>2-3</strong>=Malapit na!</li>
+                <li><strong>4-5</strong>=Malupiton ka na!</li>
+            </ul>
+        </div>
+    </div>
+         
+        <footer id="contact">
+        <p>&copy; 2026 MegaForce. All rights reserved.</p>
+        </footer>
+        
+       <script src="script.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    </body>
+     
+</html>

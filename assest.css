@@ -1,0 +1,43 @@
+﻿
+body{
+    font-family: Arial, sans-serif;
+    background-image: url("login.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:20px;
+}
+.container{
+    max-width:900px;
+    margin:auto;
+    background:gray;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+h1{
+    text-align:center;
+    color: white;
+}
+.question{
+    margin-bottom:20px;
+    padding:10px;
+    border-left:4px solid #007bff;
+    background:#f9f9f9;
+}
+button{
+    background:#007bff;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+    border-radius:5px;
+}
+button:hover{
+    background:lightgreen;
+}
+#result{
+    margin-top:20px;
+    font-size:20px;
+    font-weight:bold;
+}
